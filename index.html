@@ -71,8 +71,8 @@
                         <!--BOTÓN GEAR DROPDOWN-->
                         <li class="nav-item dropdown">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <button type="button" class="btn btn-secondary dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-gear"></i>
                                 </button>
                                 <ul class="dropdown-menu">
@@ -90,6 +90,34 @@
                 </div>
             </div>
         </nav>
+        <!--BOTONES DE DIRECCIÓN A SCROLL FEED VERTICAL Y FEED AMPLIO-->
+        <nav>
+            <div class="nav nav-tabs border-0 mb-3 justify-content-center" id="nav-tab" role="tablist">
+                <!--BOTON IZQUIERDO-->
+                <button class="btn border-0 " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i
+                        class="fa-grip fa-solid fa-lg"></i></button> <!-- Grid button-->
+                <!--BOTON DERECHO-->
+                <button class="btn border-0 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false" autofocus><i
+                        class="fa-square fa-solid"></i></button>
+            </div>
+        </nav>
+        <!--CUERPO DEL FEED-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Title</h3>
+                            <div class="card-block">
+                            <img src="https://picsum.photos/id/11/300" class="img-fluid">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -101,5 +129,6 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
+    
 
 </html>
